@@ -10,12 +10,6 @@ It trains an SVM classifier, evaluates performance, and allows predictions.
 - Save & load trained models
 - Predict new samples
 
-## 📂 Project Structure
-digit-classifier/
-├── src/ # Source code
-├── models/ # Saved models
-├── tests/ # Unit tests
-├── main.py # Entry point
 
 ## ⚡ Run the project
 ```bash
