@@ -2,7 +2,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 import pickle
 
-def train_model(df, model_path="models/digit_model.pkl"):
+def train_model(df, model_path="models/my_model.pkl"):
     X = df.drop(df[['target', 'target desc']], axis='columns')
     y = df['target']
 
