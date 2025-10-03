@@ -1,5 +1,5 @@
 import pickle
-import numpy
+import numpy as np
 
 def load_model(model_path="models/digit_model.pkl"):
     with open(model_path, "rb") as f:
