@@ -17,7 +17,7 @@ def main():
 
     print("Testing single prediction...")
     sample = X_test.iloc[0]
-    pred = predict_single(model, sample)
+    pred = predict_model(model, sample)
     print(f"Predicted: {pred}, Actual: {y_test.iloc[0]}")
 
 if __name__ == "__main__":
